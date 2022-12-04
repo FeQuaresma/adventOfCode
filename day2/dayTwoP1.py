@@ -8,6 +8,10 @@ varHelper = sumHelper = sumTotal = 0
 # PAPEL   B  Y
 # TESOURA C  Z
 
+dictArr = [
+  "AX","AY","AZ","BX","BY","BZ","CX","CY","CZ"
+]
+
 for line in f:
   varHelper = line.replace("\n", "")
   if varHelper[2] == "X":
