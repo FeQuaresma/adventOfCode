@@ -16,10 +16,8 @@ for line in f:
       auxN = f'{auxN}{line[i]}'
   arr2.append(int(auxN))
   auxN = ""
-
   if (arr1[0] in range(arr2[0], arr2[1]+1)) or (arr1[1] in range(arr2[0], arr2[1]+1)) or (arr2[0] in range(arr1[0], arr1[1]+1)) or (arr2[1] in range(arr1[0], arr1[1]+1)):
     sumTotal += 1
-
   arr1.clear()
   arr2.clear()
 
